@@ -1,0 +1,46 @@
+{
+  "school": "Example University",
+  "program": "Computer Science, Undergraduate",
+  "applicant_context": "International applicant, 2027 fall entry",
+  "report_date": "2026-06-03",
+  "confidence": "medium",
+  "bottom_line": "Example University is a plausible target if the applicant can demonstrate strong math preparation and complete the application materials before the early deadline.",
+  "best_fit_reasons": [
+    "Program aligns with the student's intended computer science path.",
+    "Official admissions pages publish clear material requirements.",
+    "Campus support resources appear relevant for international students."
+  ],
+  "main_concerns": [
+    "Scholarship availability for international students needs confirmation.",
+    "Testing policy may change by cycle."
+  ],
+  "next_actions": [
+    "Email admissions to confirm the 2027 testing policy.",
+    "Prepare transcript translation and recommendation timeline.",
+    "Verify cost of attendance for the intended entry year."
+  ],
+  "fit_scorecard": [
+    {"dimension": "Academic fit", "rating": "strong", "rationale": "Major and curriculum match the stated goal."},
+    {"dimension": "Admissions competitiveness", "rating": "moderate", "rationale": "Selectivity data is incomplete without applicant grades."},
+    {"dimension": "Financial fit", "rating": "unknown", "rationale": "Aid eligibility requires confirmation."}
+  ],
+  "admissions_checklist": [
+    {"item": "Application route", "finding": "Official application portal", "status": "verified"},
+    {"item": "Deadline", "finding": "Confirm cycle-specific date", "status": "unclear"},
+    {"item": "Recommendation letters", "finding": "Teacher recommendations likely required", "status": "inferred"}
+  ],
+  "timeline": [
+    {"date": "2026-09", "task": "Confirm requirements and testing policy", "owner": "Student", "status": "planned"},
+    {"date": "2026-10", "task": "Draft essays and request recommendations", "owner": "Student", "status": "planned"}
+  ],
+  "sections": [
+    {"title": "Program and Academic Analysis", "body": "The program appears aligned with the target field. A final judgment requires course-level review and prerequisite confirmation."},
+    {"title": "Cost and Aid Analysis", "body": "Published costs and aid rules should be checked for the exact entry year before final application planning."}
+  ],
+  "risks": [
+    {"risk": "Aid uncertainty", "severity": "high", "evidence": "International aid rules not confirmed", "mitigation": "Email financial aid office."}
+  ],
+  "sources": [
+    {"claim": "Application route", "title": "Admissions Requirements", "url": "https://example.edu/admissions", "accessed": "2026-06-03"}
+  ]
+}
