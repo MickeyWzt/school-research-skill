@@ -1,5 +1,7 @@
 # School Research Skill
 
+[![CI](https://github.com/MickeyWzt/school-research-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/MickeyWzt/school-research-skill/actions/workflows/ci.yml)
+
 `school-research` is a Codex/Claude-style skill for deep research on one specific school, college, university, boarding school, international school, or academic program.
 
 It is designed for application planning tasks where a user names a school and wants a source-backed profile or polished PDF report covering admissions, program fit, cost, scholarships, student life, outcomes, risks, and next actions.

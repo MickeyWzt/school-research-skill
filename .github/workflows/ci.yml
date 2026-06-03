@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  python-and-assets:
+    name: Python and sample asset checks
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile PDF renderer
+        run: python -m py_compile school-research/scripts/render_school_pdf.py
+
+      - name: Validate sample report JSON
+        run: python -c "import json; json.load(open('school-research/assets/sample_pdf_report.json', encoding='utf-8'))"
