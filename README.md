@@ -4,6 +4,15 @@
 
 It is designed for application planning tasks where a user names a school and wants a source-backed profile or polished PDF report covering admissions, program fit, cost, scholarships, student life, outcomes, risks, and next actions.
 
+## Project Links
+
+- [Support and troubleshooting](SUPPORT.md)
+- [Roadmap](ROADMAP.md)
+- [Contributing guide](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+- [Research standards](school-research/references/research-standards.md)
+- [PDF report design](school-research/references/pdf-report-design.md)
+
 ## What It Does
 
 - Confirms the exact school, campus, program, applicant category, and entry cycle.
