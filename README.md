@@ -8,6 +8,15 @@
 
 It is designed for application planning tasks where a user names a school and wants a source-backed profile or polished PDF report covering admissions, program fit, cost, scholarships, student life, outcomes, risks, and next actions.
 
+## At a Glance
+
+| Field | Details |
+| --- | --- |
+| Project status | Working research skill with sample assets and a PDF report renderer. |
+| Best for | Deep due diligence on one specific school, campus, program, or application path. |
+| First thing to try | Ask for one named school and include applicant type, entry year, and target program. |
+| Important caveat | Final requirements, costs, dates, scholarships, and visa rules must be verified with official sources. |
+
 ## Project Links
 
 - [Development guide](docs/DEVELOPMENT.md)
