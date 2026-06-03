@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest a research standard, template, renderer, or output improvement
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What research or reporting problem does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Research standards
+        - Output template
+        - PDF renderer
+        - Source logging
+        - Chinese output
+        - Example data
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or example
+      description: Include a source category, sample report section, or renderer example if useful.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
