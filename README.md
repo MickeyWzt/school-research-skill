@@ -8,6 +8,7 @@ It is designed for application planning tasks where a user names a school and wa
 
 ## Project Links
 
+- [Development guide](docs/DEVELOPMENT.md)
 - [Support and troubleshooting](SUPPORT.md)
 - [Changelog](CHANGELOG.md)
 - [Roadmap](ROADMAP.md)
