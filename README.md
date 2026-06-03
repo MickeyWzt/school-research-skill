@@ -21,6 +21,7 @@ It is designed for application planning tasks where a user names a school and wa
 
 - [Development guide](docs/DEVELOPMENT.md)
 - [FAQ](docs/FAQ.md)
+- [Examples](docs/EXAMPLES.md)
 - [Support and troubleshooting](SUPPORT.md)
 - [Changelog](CHANGELOG.md)
 - [Roadmap](ROADMAP.md)
