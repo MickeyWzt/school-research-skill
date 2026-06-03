@@ -1,0 +1,39 @@
+name: Bug report
+description: Report a research workflow, source-quality, template, or PDF renderer problem
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: school
+    attributes:
+      label: School, program, or report type
+      placeholder: School name, campus, program, applicant category, entry cycle
+  - type: dropdown
+    id: output
+    attributes:
+      label: Output mode
+      options:
+        - Quick profile
+        - Deep report
+        - Checklist
+        - Risk register
+        - PDF report
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source issue
+      description: Official source missing, stale, conflicting, or incorrectly labeled.
+  - type: textarea
+    id: command
+    attributes:
+      label: Command or prompt used
+      description: Include the PDF render command if renderer-related.
