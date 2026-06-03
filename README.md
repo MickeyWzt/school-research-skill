@@ -2,7 +2,7 @@
 
 `school-research` is a Codex/Claude-style skill for deep research on one specific school, college, university, boarding school, international school, or academic program.
 
-It is designed for application planning tasks where a user names a school and wants a source-backed profile covering admissions, program fit, cost, scholarships, student life, outcomes, risks, and next actions.
+It is designed for application planning tasks where a user names a school and wants a source-backed profile or polished PDF report covering admissions, program fit, cost, scholarships, student life, outcomes, risks, and next actions.
 
 ## What It Does
 
@@ -11,6 +11,7 @@ It is designed for application planning tasks where a user names a school and wa
 - Attempts a minimum deep-research source set before calling a report "deep research."
 - Labels facts as `verified`, `inferred`, or `unclear`.
 - Produces quick school profiles, deep due-diligence reports, application checklists, source logs, and risk registers.
+- Produces readable visual PDF reports with a cover, decision summary, fit scorecard, admissions checklist, timeline, risk register, and source log.
 - Outputs in Chinese when the user writes in Chinese, while preserving official English names.
 
 ## Included Files
@@ -19,10 +20,14 @@ It is designed for application planning tasks where a user names a school and wa
 school-research/
   SKILL.md
   assets/
+    sample_pdf_report.json
     single_school_profile.csv
   references/
     output-templates.md
+    pdf-report-design.md
     research-standards.md
+  scripts/
+    render_school_pdf.py
 dist/
   school-research.skill
 ```
@@ -48,6 +53,7 @@ school-research/
 - "Check whether USC still requires SAT/ACT for 2027 entry."
 - "Research the University of Toronto computer science application requirements."
 - "Help me decide whether this one school is worth applying to."
+- "Make the final school research report as a polished PDF."
 
 ## Deep Research Standard
 
@@ -63,6 +69,16 @@ For a deep profile, the skill asks the agent to attempt:
 8. External context only after official sources.
 
 If a category cannot be found, the report should say so instead of silently omitting it.
+
+## PDF Output
+
+The skill includes a ReportLab renderer:
+
+```powershell
+python school-research/scripts/render_school_pdf.py school-research/assets/sample_pdf_report.json output/sample_school_report.pdf
+```
+
+Agents can use this script after converting research findings into structured JSON. The PDF mode emphasizes readability: the first pages are decision-oriented, while detailed evidence and source logs come later.
 
 ## License
 
