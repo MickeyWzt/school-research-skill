@@ -15,6 +15,7 @@ It is designed for application planning tasks where a user names a school and wa
 - [Changelog](CHANGELOG.md)
 - [Roadmap](ROADMAP.md)
 - [Contributing guide](CONTRIBUTING.md)
+- [Code of conduct](CODE_OF_CONDUCT.md)
 - [Security policy](SECURITY.md)
 - [Research standards](school-research/references/research-standards.md)
 - [PDF report design](school-research/references/pdf-report-design.md)
